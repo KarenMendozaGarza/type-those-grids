@@ -32,10 +32,19 @@ body {
   margin: 0;
 }
 
-header {
+h1 {
   font-style: italic;
+  font-weight: normal;
 }
 
 h2 {
   font-style: italic;
+  font-weight: normal;
 }
+
+.banner{
+  grid-area: banner;
+}
+
+
+.column 1
