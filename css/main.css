@@ -21,7 +21,7 @@ main {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas:
   "banner banner banner"
-  "col1   col2   col3"
+  "col1   col2   col3";
 }
 
 img {
@@ -36,7 +36,7 @@ h1 {
   font-style: italic;
   font-weight: normal;
   font-size: 1.8rem;
-  margin: 1.5rem;
+  margin: 1.5rem 1rem;
 }
 
 h2 {
@@ -46,14 +46,14 @@ h2 {
   margin: 0;
 }
 
-.banner{
+.banner {
   grid-area: banner;
 }
 
 .banner-text {
   color: #fff;
   margin: 1rem;
-  margin-bottom: 0;
+  margin-bottom: 1.5rem;
 
   grid-area: banner;
   align-self: end;
@@ -65,4 +65,20 @@ figure {
 
 figcaption {
   margin: 1rem;
+}
+
+p {
+  margin: 0;
+}
+
+dl {
+  margin-top: 0;
+}
+
+dt {
+  font-style: italic;
+}
+
+dd {
+  text-indent: -1.5rem;
 }
